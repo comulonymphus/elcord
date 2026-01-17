@@ -116,6 +116,7 @@ See <https://discordapp.com/developers/applications/me>."
                                     (puml-mode . "puml-mode_icon")
                                     (puppet-mode . "puppet-mode_icon")
                                     (python-mode . "python-mode_icon")
+                                    (raku-mode . "raku-mode_icon")
                                     (racket-mode . "racket-mode_icon")
                                     (ruby-mode . "ruby-mode_icon")
                                     (rust-mode . "rust-mode_icon")
