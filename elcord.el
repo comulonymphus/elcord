@@ -44,10 +44,10 @@ See <https://discordapp.com/developers/applications/me>."
   :group 'elcord)
 
 (defcustom elcord-icon-base
-  '"https://raw.githubusercontent.com/Mstrodl/elcord/master/icons/"
+  '"https://raw.githubusercontent.com/comulonymphus/elcord/master/icons/"
   "Base URL for icon images. Mode icons will be loaded from this URL + the icon name + '.png'"
   :type '(choice (const :tag "Elcord GitHub Repository"
-                        "https://raw.githubusercontent.com/Mstrodl/elcord/master/icons/")
+                        "https://raw.githubusercontent.com/comulonymphus/elcord/master/icons/")
                  (string :tag "Use the specified URL base")
                  (function :tag "Call the function with icon name as an arg to get the URL base."))
   :group 'elcord)
@@ -240,7 +240,7 @@ When visiting a boring buffer, it will not show in the elcord presence."
   :type '(repeat regexp)
   :group 'elcord)
 
-(defcustom elcord-discord-ipc-path 'nil
+(defcustom elcord-discord-ipc-path "/run/user/1000/.flatpak/com.discordapp.Discord/xdg-run/discord-ipc-0"
   "Path to the Discord IPC pipe. When nil, the default path is used."
   :type 'string
   :group 'elcord)
